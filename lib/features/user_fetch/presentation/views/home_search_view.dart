@@ -85,7 +85,9 @@ class _HomeViewState extends State<HomeView> {
                                   "Search results for ${provider.searchQuery ?? ""}",
                                   textAlign: TextAlign.center,
                                 ),
-                                SizedBox(height: 10,),
+                                SizedBox(
+                                  height: 10,
+                                ),
                                 Text(
                                   "Result Count: ${provider.userSearchResult.users.length ?? ""} results",
                                   textAlign: TextAlign.center,

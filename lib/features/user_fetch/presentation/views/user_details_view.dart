@@ -49,7 +49,8 @@ class _UserDetailsViewState extends State<UserDetailsView> {
                         height: MediaQuery.of(context).size.height * 0.3,
                         width: double.infinity,
                         fit: BoxFit.fitHeight,
-                        image: NetworkImage(provider.user?.avatarUrl ?? "https://avatars.githubusercontent.com/u/583231?s=460&u=a59fef2a493e2b67dd13754231daf220c82ba84d&v=4"),
+                        image: NetworkImage(provider.user?.avatarUrl ??
+                            "https://avatars.githubusercontent.com/u/583231?s=460&u=a59fef2a493e2b67dd13754231daf220c82ba84d&v=4"),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
