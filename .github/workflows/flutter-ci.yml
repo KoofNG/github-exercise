@@ -29,9 +29,10 @@ jobs:
           flutter-version: ${{ env.flutter_version }}
       - name: Install dependencies
         run: flutter pub get
-      - name: Format code
-        run: flutter format lib/
+#      - name: Format code
+#        run: flutter format lib/
 # use the below line instead if you want the ci to fail on unformatted code
+      - name: Check formatting
         run: flutter format --dry-run . --set-exit-if-changed
       - name: Lint analysis
         run: flutter analyze --no-pub
