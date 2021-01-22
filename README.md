@@ -2,6 +2,8 @@
 
 A new Flutter application.
 
+![Flutter CI](https://github.com/Mastersam07/github-exercise/workflows/Flutter%20CI/badge.svg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
