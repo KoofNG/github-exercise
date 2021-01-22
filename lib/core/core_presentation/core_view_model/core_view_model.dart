@@ -14,7 +14,7 @@ class BaseViewModel extends ChangeNotifier {
   handleFailure(BuildContext context, ActionFailure failure) {
     switch (failure.runtimeType) {
       case ServerFailure:
-        ServerFailure serverFailure = failure;
+        // ServerFailure serverFailure = failure;
         ProcessIndicator.showSnackBar(
           context,
           // message: serverFailure.message,

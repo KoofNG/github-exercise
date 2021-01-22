@@ -3,7 +3,6 @@ import 'app_exceptions.dart';
 abstract class ActionFailure {
   final Object properties;
   ActionFailure([this.properties = const Object()]) : super();
-  @override
   List<Object> get props => [properties];
 }
 
